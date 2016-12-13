@@ -8,17 +8,52 @@
 <meta name="author" content="Fitzgerald Wong" />
 <link rel="stylesheet" type="text/css" href="style.css" media="screen,projection" title="Fitzgerald Wong"/>
 <title>Fitz Wong</title> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> 
 <script type="text/javascript">
-$(document).ready(function() {
+$(document).ready(function() 
+				  
+{
 $('.screentext').fadeIn(1700,
 	function callback() {
     $('html, body').animate({
         scrollTop: $('.introheader').offset().top
-    }, 'fast');
+    }, 'slow');
 	});
 });	
 </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <video poster="" id="bgvid" playsinline autoplay muted loop>
   <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
 <source src="sunrise.mp4" type="video/mp4">
